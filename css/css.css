@@ -40,6 +40,19 @@ header{
     color: blue;
 }
 
+.barramenu{
+    background-color: #fff;
+    font-size: 5px;
+    width: 110px;
+    height: 130px;
+    display: none;   
+}
+
+.grados:hover .barramenu{
+    display: block;
+}
+
+
 .Computadoras{
     width: 100%;;
     height: 500px;
@@ -50,6 +63,3 @@ header{
     margin-top: -10px;
     text-align: center;
     padding: 100px 100px 100px 100px;
-    
-    
-}
