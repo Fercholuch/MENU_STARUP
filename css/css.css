@@ -37,21 +37,41 @@ header{
 }
 
 .Inicios a:hover{
-    color: blue;
+    color: black;
 }
 
 .barramenu{
-    background-color: #fff;
+    background-color: gainsboro;
     font-size: 5px;
     width: 110px;
     height: 130px;
     display: none;   
 }
 
+
+
+
 .grados:hover .barramenu{
     display: block;
 }
 
+.barramenu .nav-titulo{
+    width: 100%;
+}
+
+.barramenu .nav-titulo a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.barramenu .nav-titulo:hover{
+    background-color: #fff;
+    transition: 1s;
+}
 
 .Computadoras{
     width: 100%;;
@@ -64,5 +84,3 @@ header{
     text-align: center;
     padding: 100px 100px 100px 100px;
     
-    
-}
